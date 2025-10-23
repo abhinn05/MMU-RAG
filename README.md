@@ -23,9 +23,7 @@ Follow these steps to run the RAG API server and test it.
     -Method POST `
     -ContentType "application/json" `
     -Body '{ "question": "What is Machine Learning?" }'
-
-    # Display the full streaming content received from the server
-    $response.Content
+    
     ```
     * **Note:** Replace `"What is Machine Learning?"` with any question you want to test.
     * This command sequence sends the question and then prints the full streaming response, showing intermediate steps and the final answer.
