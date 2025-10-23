@@ -1,0 +1,3 @@
+{"query": "What is RAG?", "iid": "val-001", "reference": "RAG stands for Retrieval-Augmented Generation."}
+{"query": "What is Deep Learning?", "iid": "val-002", "reference": "A subset of machine learning based on artificial neural networks."}
+{"query": "How do neural networks work?", "iid": "val-003", "reference": "They are inspired by the human brain, processing data in layers."}

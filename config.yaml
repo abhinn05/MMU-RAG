@@ -1,0 +1,18 @@
+# --- API and Model Settings ---
+# 'fineweb_api_key': Your API key for the FineWeb service
+fineweb_api_key: "M8eTF0iASb08qLVCL0l2UyR5mFDmFQgj3am8ewVa1Yk"
+
+# 'retriever_top_k': How many *documents* to retrieve from FineWeb (Stage 1)
+retriever_top_k: 5
+
+# 'generator_model': The HuggingFace model for generating answers
+generator_model: "google/flan-t5-base"
+
+# --- Preprocessing & Re-ranking Settings ---
+# 'chunk_size': Max tokens per chunk for embedding
+chunk_size: 256
+# 'chunk_overlap': Tokens to overlap between chunks
+chunk_overlap: 50
+
+# 'rerank_top_k': How many *chunks* to feed to the LLM (Stage 2)
+rerank_top_k: 3

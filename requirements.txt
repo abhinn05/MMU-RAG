@@ -1,0 +1,15 @@
+# For the RAG pipeline
+transformers
+sentence-transformers
+torch
+faiss-cpu
+pypdf
+ftfy
+PyYAML
+
+# For the API Server
+fastapi
+uvicorn[standard]
+
+# For the Test Script
+aiohttp
