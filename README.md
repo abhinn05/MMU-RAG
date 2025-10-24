@@ -1,13 +1,11 @@
-````markdown
-# 🧠 MMU-RAG  
+🧠 MMU-RAG  
 **Retrieval-Augmented Generation (RAG) system with FastAPI and Docker**
 
 ---
 
 ## 📖 Overview  
 MMU-RAG is an intelligent API server designed to answer questions using **Retrieval-Augmented Generation (RAG)**.  
-It combines **information retrieval** and **large language models (LLMs)** to provide accurate, context-aware answers from your local knowledge base or document corpus.
-
+It combines **information retrieval** and **large language models (LLMs)** to provide accurate, context-aware answers from your local knowledge base or document corpus.  
 Supports both **local development** and **Dockerized deployment**.
 
 ---
@@ -211,5 +209,3 @@ This project is licensed under **MIT License**.
 
 **Abhinn Goyal**
 [GitHub](https://github.com/abhinn05) • [LinkedIn](https://www.linkedin.com/in/abhinn-goyal/)
-
-```
